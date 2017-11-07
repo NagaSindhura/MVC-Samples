@@ -24,5 +24,20 @@ namespace HelperMethods.Controllers
 
             return View();
         }
+
+        public ActionResult Step2()
+        {
+            ViewBag.Fruits = new String[] { "Grapes", "Apple", "Orange" };
+            ViewBag.States = new String[] { "TS", "Simla", "AP" };
+
+            return View();
+        }
+        public ActionResult Step3()
+        {
+            ViewBag.Fruits = new String[] { "Grapes", "Apple", "Orange" };
+            ViewBag.States = new String[] { "TS", "Simla", "AP" };
+
+            return View();
+        }
     }
 }

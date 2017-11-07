@@ -31,3 +31,4 @@ D:\MVC Samples\HelperMethods\HelperMethods\bin\System.Web.Mvc.xml
 D:\MVC Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.csprojResolveAssemblyReference.cache
 D:\MVC Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.dll
 D:\MVC Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.pdb
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
