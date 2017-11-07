@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>Fruits</p>
+<ul>
+    @foreach (var fruit in ViewBag.Fruits)
+    {
+        <li>@fruit</li>
+    }
+</ul>
+
+<p>States</p>
+<ul>
+    @foreach (var state in ViewBag.States)
+    {
+        <li>@state</li>
+    }
+</ul>
