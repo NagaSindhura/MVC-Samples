@@ -39,5 +39,33 @@ namespace HelperMethods.Controllers
 
             return View();
         }
+
+        public ActionResult Step4()
+        {
+            string message = "This is an HTML element: <input>";
+
+            return View((object)message);
+        }
+
+        public ActionResult Step5()
+        {
+            string message = "This is an HTML element: <input>";
+
+            return View((object)message);
+        }
+
+        public ActionResult Step6()
+        {
+            string message = "This is an HTML element: <input>";
+
+            return View((object)message);
+        }
+
+        public ActionResult Step7()
+        {
+            string message = "This is an HTML element: <input>";
+
+            return View((object)message);
+        }
     }
 }

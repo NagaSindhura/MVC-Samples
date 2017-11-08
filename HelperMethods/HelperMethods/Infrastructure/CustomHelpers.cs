@@ -22,5 +22,24 @@ namespace HelperMethods.Infrastructure
 
             return new MvcHtmlString(tagBuilder.ToString());
         }
+
+        public static MvcHtmlString DisplayMessage(this HtmlHelper html, string message)
+        {
+            string result = string.Format("This is the message: <p>{0}</p> ", message);
+
+            return new MvcHtmlString(result);
+        }
+
+        public static string DisplayMessageStringFormat(this HtmlHelper html, string message)
+        {
+            return string.Format("This is the message: < p >{0}</ p >", message);
+        }
+
+        public static MvcHtmlString DisplayMessageEncode(this HtmlHelper html, string message)
+        {
+            string encodedMessage = html.Encode(message);
+            string result = String.Format("This is the message: <p>{0}</p>", encodedMessage);
+            return new MvcHtmlString(result);
+        }
     }
 }

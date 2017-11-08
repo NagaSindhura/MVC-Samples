@@ -125,6 +125,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\Step2.cshtml" />
     <Content Include="Views\Home\Step3.cshtml" />
+    <Content Include="Views\Home\Step4.cshtml" />
+    <Content Include="Views\Home\Step5.cshtml" />
+    <Content Include="Views\Home\Step6.cshtml" />
+    <Content Include="Views\Home\Step7.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
