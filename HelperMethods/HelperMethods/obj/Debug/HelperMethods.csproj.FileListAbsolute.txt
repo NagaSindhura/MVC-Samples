@@ -65,3 +65,36 @@ D:\MVC Samples\GitCode\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Mv
 D:\MVC Samples\GitCode\MVC-Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.csprojResolveAssemblyReference.cache
 D:\MVC Samples\GitCode\MVC-Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.dll
 D:\MVC Samples\GitCode\MVC-Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.pdb
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\csc.exe
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\System.Collections.Immutable.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\System.Reflection.Metadata.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\vbc.exe
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\VBCSCompiler.exe
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\roslyn\VBCSCompiler.exe.config
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\HelperMethods.dll.config
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\HelperMethods.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\HelperMethods.pdb
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Helpers.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Mvc.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Razor.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Webpages.Deployment.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Webpages.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Webpages.Razor.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Razor.xml
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Webpages.xml
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Webpages.Deployment.xml
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Webpages.Razor.xml
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Helpers.xml
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\bin\System.Web.Mvc.xml
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.csprojResolveAssemblyReference.cache
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.csproj.CoreCompileInputs.cache
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.dll
+D:\MVC\MVC-Samples\HelperMethods\HelperMethods\obj\Debug\HelperMethods.pdb

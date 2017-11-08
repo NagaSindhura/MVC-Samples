@@ -32,11 +32,15 @@ namespace HelperMethods.Infrastructure
 
         public static string DisplayMessageStringFormat(this HtmlHelper html, string message)
         {
+            //it alerts the view Engine that your content is not safe and should be encoded before it is added to the View
             return string.Format("This is the message: < p >{0}</ p >", message);
+            //it causes to encode all of the contents of the content that is retured by the helper
+            //p elemnt is encded as well which is not what we expect
         }
 
         public static MvcHtmlString DisplayMessageEncode(this HtmlHelper html, string message)
         {
+            //More selective Encoding
             string encodedMessage = html.Encode(message);
             string result = String.Format("This is the message: <p>{0}</p>", encodedMessage);
             return new MvcHtmlString(result);

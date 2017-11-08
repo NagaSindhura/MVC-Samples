@@ -1,0 +1,28 @@
+﻿@model HelperMethods.Models.PersonDemo
+
+@{
+    ViewBag.Title = "CreatePerson";
+}
+
+<h2>CreatePerson</h2>
+
+@*<form action="/PersonDemo/CreatePerson" method="post">*@
+@*@Html.BeginForm()*@
+using(@Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>First Name: </td>
+            <td><input type="text" name="FirstName"</td>
+        </tr>
+        <tr>
+            <td>Last Name: </td>
+            <td><input type="text" name="LastName"</td>
+        </tr>
+        <tr>
+            <input type="submit" value="Submit" />
+        </tr>
+    </table>
+}
+@*@{ Html.EndForm();}*@
+@*</form>*@
