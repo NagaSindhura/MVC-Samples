@@ -135,6 +135,9 @@
     <Content Include="Views\Home\Step7.cshtml" />
     <Content Include="Views\Person\Create.cshtml" />
     <Content Include="Views\PersonDemo\CreatePerson.cshtml" />
+    <Content Include="Views\PersonDemo\CreateInputHelperPerson.cshtml" />
+    <Content Include="Views\PersonDemo\StronglyTypedHelperMethods.cshtml" />
+    <Content Include="Views\PersonDemo\SampleInputHelpers.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

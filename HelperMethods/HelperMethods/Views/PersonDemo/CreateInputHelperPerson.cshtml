@@ -1,0 +1,35 @@
+﻿
+
+
+@model HelperMethods.Models.PersonDemo
+
+@{
+    ViewBag.Title = "CreateInputHelperPerson";
+
+    //we have basic helper methods avaialble to create the some input element
+    //for all of these first argument is used to set the id and name of the element
+}
+
+<h2>CreateInputHelperPerson</h2>
+
+@using (@Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>First Name: </td>
+            <td>
+                @Html.TextBox("FirstName")
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name: </td>
+            <td>
+                @Html.TextBox("LastName")
+            </td>
+        </tr>
+    </table>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+}
+

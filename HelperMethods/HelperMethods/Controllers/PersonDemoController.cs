@@ -26,5 +26,29 @@ namespace HelperMethods.Controllers
             //hamdle the form Data
             return View();
         }
+
+        //usig Input Helpers
+
+        public ActionResult CreateInputHelperPerson()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult CreateInputHelperPerson(PersonDemo person)
+        {
+            //hamdle the form Data
+            return View();
+        }
+
+        public ActionResult SampleInputHelpers()
+        {
+            return View();
+        }
+
+        //public ActionResult StronglyTypedHelperMethods()
+        //{
+        //    return View();
+        //}
     }
 }

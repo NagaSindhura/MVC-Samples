@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "StronglyTypedHelperMethods";
+}
+
+<h2>StronglyTypedHelperMethods</h2>
+
+@using (@Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>First Name: </td>
+            <td>
+                @Html.TextBoxFor(x => x.FirstName)
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name: </td>
+            <td>
+                @Html.TextBoxFor(x => x.LastName)
+            </td>
+        </tr>
+    </table>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+}
+
