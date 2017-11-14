@@ -1,0 +1,18 @@
+﻿@model HelperMethods.Models.Person
+
+@{
+    ViewBag.Title = "WhyStronglyTyped";
+}
+
+<h2>WhyStronglyTyped</h2>
+<p>VieBag: @ViewBag.FirstName</p>
+
+@using (Html.BeginForm())
+{
+    <p>
+    Model: @Html.TextBox("FirstName");
+    </p>
+    <p>
+        LastName :  @Html.TextBox("LastName");      </p>
+}
+

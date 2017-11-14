@@ -1,0 +1,29 @@
+﻿@model HelperMethods.Models.Person
+
+@{
+    ViewBag.Title = "RouteUsedByForm";
+}
+
+<h2>RouteUsedByForm</h2>
+
+@using (Html.BeginRouteForm("FormRoute", new { }, FormMethod.Post,
+                         new { @class = "personClass", data_formType = "person" }))
+{
+    <table>
+        <tr>
+            <td>First Name: </td>
+            <td>
+                @Html.TextBox("FirstName")
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name: </td>
+            <td>
+                @Html.TextBox("LastName")
+            </td>
+        </tr>
+    </table>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+}

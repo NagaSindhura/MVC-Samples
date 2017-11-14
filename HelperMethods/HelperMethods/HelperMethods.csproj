@@ -109,6 +109,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Controllers\PersonDemoController.cs" />
+    <Compile Include="Controllers\StronglyTypedController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -138,6 +139,8 @@
     <Content Include="Views\PersonDemo\CreateInputHelperPerson.cshtml" />
     <Content Include="Views\PersonDemo\StronglyTypedHelperMethods.cshtml" />
     <Content Include="Views\PersonDemo\SampleInputHelpers.cshtml" />
+    <Content Include="Views\PersonDemo\RouteUsedByForm.cshtml" />
+    <Content Include="Views\StronglyTyped\WhyStronglyTyped.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

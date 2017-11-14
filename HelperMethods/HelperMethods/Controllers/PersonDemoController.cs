@@ -46,9 +46,15 @@ namespace HelperMethods.Controllers
             return View();
         }
 
-        //public ActionResult StronglyTypedHelperMethods()
-        //{
-        //    return View();
-        //}
+        public ActionResult RouteUsedByForm()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult RouteUsedByForm(Person person)
+        {
+            return View();
+        }
     }
 }
