@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "SampleInputHelpers";
+}
+
+<h2>SampleInputHelpers</h2>
+<h4> the first argument is used to set the value of the id and name attributes for the
+input element and the second argument is used to set the value attribute. </h4>
+
+
+<table border="1">
+    <tr><th>Html Element</th><th>Example</th></tr>
+    <tr><th>Html.CheckBox</th><td>@Html.CheckBox("myCheckbox", false)</td></tr>
+    @*<tr>Note Notice that the checkbox helper (Html.CheckBox) renders two input elements. It renders a checkbox and
+        then a hidden input element of the same name. This is because browsers do not submit a value for checkboxes
+        when they are not selected. Having the hidden control ensures that the MVC Framework will get a value from the
+        hidden field when this happens. </tr>*@
+
+    <tr><td>Html.Hidden</td><td>@Html.Hidden("myHidden", "val")</td></tr>
+    <tr><td>Html.RadioButton</td><td>@Html.RadioButton("myRadiobutton", "val", true)</td></tr>
+    <tr><td>Html.Password</td><td>@Html.Password("myPassword", "val")</td></tr>
+    <tr><td>Html.TextArea</td><td>@Html.TextArea("myTextarea", "val", 5, 20, null)</td></tr>
+    <tr><td>Html.ListBox</td><td>@Html.ListBox("myList", new MultiSelectList(new[] { "A", "B" })) </td></tr>
+    <tr><td>Html.DropDownList</td><td>@Html.DropDownList("myList", new SelectList(new[] { "A", "B" }), "Choose") </td></tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+

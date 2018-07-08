@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Step3 - Creating an external Helper Methods";
+    ViewBag.Description = "Without Using @using statement and using Views/web.config file  file. Once After doing that one it will be available in all Views";
+}
+
+<h2>external Helper Methods</h2>
+<hr />
+<p>@ViewBag.Title</p>
+<p>@ViewBag.Description</p>
+<hr />
+
+<p>Fruits</p>
+@Html.ListArrayData((string[])ViewBag.Fruits);
+
+<p>States</p>
+@Html.ListArrayData((string[])ViewBag.States);

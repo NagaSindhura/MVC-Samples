@@ -1,0 +1,18 @@
+﻿@using HelperMethods.Infrastructure
+
+@{
+    ViewBag.Title = "Step2 - Creating an external Helper Methods";
+    ViewBag.Description = "";
+}
+
+<h2>external Helper Methods</h2>
+<hr />
+<p>@ViewBag.Title</p>
+<p>@ViewBag.Description</p>
+<hr />
+
+<p>Fruits</p>
+@Html.ListArrayData((string[])ViewBag.Fruits);
+
+<p>States</p>
+@Html.ListArrayData((string[])ViewBag.States);
