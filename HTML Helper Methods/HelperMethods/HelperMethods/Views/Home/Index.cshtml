@@ -20,3 +20,66 @@
         <li>@state</li>
     }
 </ul>
+
+<p>Message : @ViewBag.message</p>
+
+
+<p>
+    <h1>
+        <b><u>Inline Helper Method</u></b>
+    </h1>
+
+    <ul>
+        <li>
+            @Html.ActionLink("Step -1", "Index", "HM2_inlineHelperMethods", null, null)
+        </li>
+        <li>
+            @Html.ActionLink("Step -2", "InlineHTMLHelpersFromAppCode", "HM2_inlineHelperMethods", null, null)
+        </li>
+    </ul>
+</p>
+
+<p>
+    <h1>
+        <b><u>Custom Helper Methods</u></b>
+    </h1>
+
+    <ul>
+        <li>
+            @Html.ActionLink("Step -1", "Step1", "HM3_CustomHelperMethod", null, null)
+        </li>
+
+        <li>
+            @Html.ActionLink("Step -2", "Step2", "HM3_CustomHelperMethod", null, null)
+        </li>
+        <li>
+            @Html.ActionLink("Step -3", "Step3", "HM3_CustomHelperMethod", null, null)
+        </li>
+        <li>
+            @Html.ActionLink("Step -4", "Step4", "HM3_CustomHelperMethod", null, null)
+        </li>
+        <li>
+            @Html.ActionLink("Step -5", "Step5", "HM3_CustomHelperMethod", null, null)
+        </li>
+        <li>
+            @Html.ActionLink("Step -6", "Step6", "HM3_CustomHelperMethod", null, null)
+        </li>
+        <li>
+            @Html.ActionLink("Step -7", "Step7", "HM3_CustomHelperMethod", null, null)
+        </li>
+    </ul>
+</p>
+
+<p>
+    <h1>
+        <b><u>Using Strongly Typed Input Helpers</u></b>
+</h1>
+    <ul>
+        <li>
+            @Html.ActionLink("Step -1: Why StronglyTyped View", "WhyStronglyTyped", "StronglyTyped", null, null)
+        </li>
+        <li>
+            @Html.ActionLink("Step -2: StronglyTyped View", "StronglyTyped", "StronglyTyped", null, null)
+        </li>
+    </ul>
+</p>

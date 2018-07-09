@@ -155,6 +155,7 @@
     <Content Include="Views\HM3_CustomHelperMethod\Step5.cshtml" />
     <Content Include="Views\HM3_CustomHelperMethod\Step6.cshtml" />
     <Content Include="Views\HM3_CustomHelperMethod\Step7.cshtml" />
+    <Content Include="Views\StronglyTyped\StronglyTyped.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

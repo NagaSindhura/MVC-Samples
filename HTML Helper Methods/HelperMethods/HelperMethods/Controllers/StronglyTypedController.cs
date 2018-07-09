@@ -26,5 +26,17 @@ namespace HelperMethods.Controllers
 
             return View(person);
         }
+
+        public ActionResult StronglyTyped()
+        {
+            ViewBag.FirstName = "FirstName from Viewbag";
+
+            Person person = new Person();
+
+            person.FirstName = "FirstName from PersonObject";
+            person.LastName = "LastName from PersonObject";
+
+            return View(person);
+        }
     }
 }

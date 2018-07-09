@@ -1,11 +1,15 @@
 ﻿@model string
 @{
     ViewBag.Title = "Step4";
-    //Managing String Encoding in a Helper Method
+    ViewBag.Description = "Managing String Encoding in a Helper Method";
 }
 
-<h2>Step4</h2>
+<hr />
+<p>@ViewBag.Title</p>
+<p>@ViewBag.Description</p>
+<hr />
+
 <div>
     Here is the message:
     <p>@Model</p>
-</div> 
+</div>

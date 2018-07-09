@@ -14,6 +14,8 @@ namespace HelperMethods.Controllers
             ViewBag.Fruits = new String[] { "Grapes", "Apple", "Orange"};
             ViewBag.States = new String[] { "TS", "Simla", "AP" };
 
+            ViewBag.message = "This is an HTML element: <input>";
+
             return View();
         }
 

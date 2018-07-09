@@ -1,28 +1,50 @@
 ﻿@model string
 @{
- Layout = null;
+    Layout = null;
+    ViewBag.Title = "Using Inline HTML Helper";
+    //    ViewBag.Description =
+    //  "1. The simplest kind of helper method is an inline helper, which is defined within a view.\n"
+    //+ "2. We can create an inline helper to simplify our example view using the @helper tag. \n"
+    //+ "3. Although an inline helper looks like a method, there is no return value. \n"
+    //+ "4. The contents of the helper body are processed and put into the response to the client.";
 }
-@helper ListArrayItems(string[] items) {
- foreach(string str in items) {
- <b>@str </b>
- }
+
+<hr />
+<p><b>@ViewBag.Title</b></p>
+<p>@*@ViewBag.Description*@</p>
+<hr />
+
+@***************************************
+    ********* Inline Helper Method *********
+    ***************************************@
+
+@helper ListArrayItems(string[] items)
+    {
+        foreach (string str in items)
+        {
+            <li>@str </li>
+        }
 }
+
+@**************************************@
+
 <!DOCTYPE html>
 <html>
 <head>
- <meta name="viewport" content="width=device-width" />
- <title>Index</title>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
 </head>
 <body>
     <div>
-        Here are the fruits: @ListArrayItems(ViewBag.Fruits)
+        Fruits: @ListArrayItems(ViewBag.Fruits)
     </div>
- <div>
- Here are the cities: @ListArrayItems(ViewBag.Cities)
- </div>
- <div>
- Here is the message:
- <p>@Model</p>
- </div>
+
+    <div>
+        Cities: @ListArrayItems(ViewBag.Cities)
+    </div>
+    <div>
+
+        <p>Message: @Model</p>
+    </div>
 </body>
 </html> 

@@ -1,33 +1,15 @@
-﻿
-@{
-    ViewBag.Title = "Step1 - Creating Custom inline Helper Methods";
-    ViewBag.Description = "1. The simplest kind of helper method is an inline helper, which is defined within a view. \n"
-        + "2. We can create an inline helper to simplify our example view using the @helper tag. \n"
-        + "3. Although an inline helper looks like a method, there is no return value. \n"
-        + "4. The contents of the helper body are processed and put into the response to the client.";
-}
-
-<h2>Step1</h2>
-<hr />
-<p>@ViewBag.Title</p>
-<p>@ViewBag.Description</p>
-<hr />
-
-@helper ListViewArrayData(string[] items)
-{
-    <ul>
-        @foreach (var item in items)
-        {
-            <li>
-                @item
-            </li>
-        }
-    </ul>
-}
-<p>Fruits</p>
-@ListViewArrayData(ViewBag.Fruits)
-
+﻿<p>Fruits</p>
+<ul>
+    @foreach (var fruit in ViewBag.Fruits)
+    {
+        <li>@fruit</li>
+    }
+</ul>
 
 <p>States</p>
-@ListViewArrayData(ViewBag.States)
-
+<ul>
+    @foreach (var state in ViewBag.States)
+    {
+        <li>@state</li>
+    }
+</ul>

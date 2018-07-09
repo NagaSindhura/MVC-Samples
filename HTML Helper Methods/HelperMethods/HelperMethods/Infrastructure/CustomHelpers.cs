@@ -32,9 +32,11 @@ namespace HelperMethods.Infrastructure
 
         public static string DisplayMessageStringFormat(this HtmlHelper html, string message)
         {
-            //it alerts the view Engine that your content is not safe and should be encoded before it is added to the View
+            //it alerts the view Engine that your content is not safe 
+            //and should be encoded before it is added to the View
             return string.Format("This is the message: < p >{0}</ p >", message);
-            //it causes to encode all of the contents of the content that is retured by the helper
+            //it causes to encode all of the contents of the content 
+            //that is retured by the helper
             //p elemnt is encded as well which is not what we expect
         }
 

@@ -2,7 +2,13 @@
 
 @{
     Layout = null;
+    ViewBag.Title = "Using helper methods to use across multiple views";
 }
+
+<hr />
+<p><b>@ViewBag.Title</b></p>
+<hr />
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,14 +17,15 @@
 </head>
 <body>
     <div>
-        Here are the fruits: @InlineHelperCode.ListArrayItems_AppData(ViewBag.Fruits)
+        Fruits: @InlineHelperCode.ListArrayItems_AppData(ViewBag.Fruits)
+    </div>
+    <p></p>
+    <div>
+        Cities: @InlineHelperCode.ListArrayItems_AppData(ViewBag.Cities)
     </div>
     <div>
-        Here are the cities: @InlineHelperCode.ListArrayItems_AppData(ViewBag.Cities)
-    </div>
-    <div>
-        Here is the message:
-        <p>@Model</p>
+
+        <p>Message: @Model</p>
     </div>
 </body>
 </html> 
