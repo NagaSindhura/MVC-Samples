@@ -1,0 +1,23 @@
+﻿
+@using System.Web.UI.WebControls
+@*@model EventManagement.Models.DTO.ProgramView*@
+
+@model List<EventManagement.Models.DTO.ProgramView>
+
+@{
+    var ProgramWebGrid = new WebGrid(Model, canPage: true, rowsPerPage: 1);
+
+    ProgramWebGrid.Pager(WebGridPagerModes.NextPrevious);
+
+    <div id="gridContent">
+        @ProgramWebGrid.GetHtml(
+
+        columns: ProgramWebGrid.Columns(
+        ProgramWebGrid.Column("Name", "Program Name"),
+        ProgramWebGrid.Column("Product", "Product Name")
+
+        )
+        )
+    </div>
+}
+

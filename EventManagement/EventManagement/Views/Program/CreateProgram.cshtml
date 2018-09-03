@@ -1,0 +1,49 @@
+﻿
+@model List<EventManagement.Models.DTO.ProgramView>
+
+
+@using (Html.BeginForm("CreateProgram", "Program", new AjaxOptions
+{
+    //HttpMethod = "Post",
+    UpdateTargetId = "ProgramsGrid"
+    //,
+    //InsertionMode = InsertionMode.InsertBefore
+    //,
+    //Url = Url.Action("GetPrograms")
+
+}))
+{
+    <div>
+        <p>
+            <span>@Html.Label("Name")</span>
+            <span>@Html.TextBox("Name")</span>
+            <span>@Html.ValidationMessage("Name")</span>
+        </p>
+        <p>
+            <span>@Html.Label("Product")</span>
+            <span>@Html.TextBox("Product")</span>
+            <span>@Html.ValidationMessage("Product")</span>
+        </p>
+
+        <p>
+            <input type="Submit" value="Submit" />
+        </p>
+    </div>
+    <div id="ProgramsGrid">
+        Gid Data Using Html.Partial
+        @Html.Partial("Shared/_ProgramWebGrid", Model)
+    </div>
+    <div id="ProgramsGrid">
+        Gid Data without using Html.Partial and I am not able to show the Grid data if I don't use the Html.Partial helper 
+        @*@Html.Partial("Shared/_ProgramWebGrid", Model)*@
+        <br/>
+        <br />
+        Content Missed
+    </div>
+}
+
+
+
+
+
+

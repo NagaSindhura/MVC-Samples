@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+@model EventManagement.Models.DTO.UserViewDTO
+
+@using (Html.BeginForm("LogIn","Account",FormMethod.Post))
+{
+    <div>
+        <p>
+            Please Login
+        </p>
+        <p>
+            @Html.TextBoxFor( m => m.username, new {@placeholder ="Enter User Name"})
+        </p>
+        <p>
+            @Html.TextBoxFor(m => m.password, new { @placeholder = "Enter Password" })
+        </p>
+        <p>
+            @*@Html.ValidationSummary(false, "Invalid Credentials", new { style="color: red;"})*@
+            @Html.ValidationSummary(true)
+        </p>
+        <p>
+            <input type="submit" value ="Submit" style="text-align: -webkit-center"/>
+        </p>
+    </div>
+}
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
